@@ -3,7 +3,7 @@
     {
       "name": "File exists",
       "setup": "",
-      "run": "[ -e filename.py ] && exit 0 || exit 1",
+      "run": "[ -e assignment.py ] && exit 0 || exit 1",
       "input": "",
       "output": "",
       "comparison": "included",
