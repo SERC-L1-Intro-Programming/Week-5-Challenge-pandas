@@ -1,5 +1,7 @@
 # Week 5 - Challenge (pandas)
 
+<img alt="points bar" align="right" height="36" src="../../blob/status/.github/activity-icons/points-bar.svg" />
+
 ## Challenge: Cleaning Data from a Form
 
 A SERC student has been testing a small web form to gather some basic data about students' pet preferences. They want to be able to tell which pet is favourite per campus. They have brought their findings to you to validate the data they have gathered.
