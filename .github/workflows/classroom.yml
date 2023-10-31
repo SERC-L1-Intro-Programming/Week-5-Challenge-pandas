@@ -32,6 +32,8 @@ jobs:
         run: jupyter nbconvert --to script assignment.ipynb
 
       - run: ls -l
+      - name: run converted python script
+        run: python assignment.py
 
       # run grading
       # add id to step so outputs can be referenced
