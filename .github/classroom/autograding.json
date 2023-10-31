@@ -61,6 +61,16 @@
       "points": 5
     },
     {
+      "name": "CSV content test - at least 17 rows",
+      "setup": "",
+      "run": "awk 'END {if (NR < 18) {exit 1; print \"form_cleaned.csv does not have enough rows. Too many removed.\" >> error_messages.md}}' form_cleaned.csv",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 5
+    },
+    {
       "name": "Add numbers",
       "setup": "",
       "run": "/bin/bash .github/scripts/test.sh",
