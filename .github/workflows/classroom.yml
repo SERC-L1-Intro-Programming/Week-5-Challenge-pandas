@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: install pip dependencies
-        run: python -m pip install pandas matplotlib nbconvert
+        run: python -m pip install pandas matplotlib ipython nbconvert
 
       - name: configure matplotlib
         run: |
