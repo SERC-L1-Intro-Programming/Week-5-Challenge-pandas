@@ -32,6 +32,10 @@ jobs:
         run: jupyter nbconvert --to script assignment.ipynb
 
       - run: ls -l
+
+      - name: Comment out get_ipython lines
+        run: sed -i 's/get_ipython/# get_ipython/g' assignment.py
+
       - name: run converted python script
         run: python assignment.py
 
